@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mundo del Gaming</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js"></script>
+    <header>
+        <h1>El Universo Gamer</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#plataformas">Plataformas</a></li>
+                <li><a href="#generos">Géneros</a></li>
+                <li><a href="#esports">eSports</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li class="dropdown">
+                    <a href="#">Otras Páginas</a>
+                    <ul class="dropdown-content">
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="guias.html">Guías</a></li>
+                        <li><a href="foro.html">Foro</a></li>
+                        <li><a href="tienda.html">Tienda</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>Historia de los Videojuegos</h2>
+            <article>
+                <h3>Los Inicios (1950-1970)</h3>
+                <p>Los primeros pasos en el mundo de los videojuegos comenzaron con experimentos en laboratorios...</p>
+                <ul>
+                    <li>1958: Tennis for Two</li>
+                    <li>1962: Spacewar!</li>
+                    <li>1972: Pong</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>La Era Dorada (1970-1990)</h3>
+                <p>Esta época vio el nacimiento de las consolas domésticas y los arcades...</p>
+                <ul>
+                    <li>Atari 2600</li>
+                    <li>Nintendo Entertainment System</li>
+                    <li>SEGA Master System</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="plataformas">
+            <h2>Plataformas de Gaming</h2>
+            <article>
+                <h3>Consolas Actuales</h3>
+                <ul>
+                    <li>PlayStation 5
+                        <ul>
+                            <li>Fecha de lanzamiento: 2020</li>
+                            <li>Características principales</li>
+                            <li>Juegos exclusivos</li>
+                        </ul>
+                    </li>
+                    <li>Xbox Series X/S
+                        <ul>
+                            <li>Fecha de lanzamiento: 2020</li>
+                            <li>Game Pass</li>
+                            <li>Retrocompatibilidad</li>
+                        </ul>
+                    </li>
+                    <li>Nintendo Switch
+                        <ul>
+                            <li>Modo portátil y dock</li>
+                            <li>Joy-Cons</li>
+                            <li>Títulos first-party</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>PC Gaming</h3>
+                <ul>
+                    <li>Ventajas del PC Gaming</li>
+                    <li>Tiendas digitales
+                        <ul>
+                            <li>Steam</li>
+                            <li>Epic Games Store</li>
+                            <li>GOG</li>
+                        </ul>
+                    </li>
+                    <li>Hardware gaming</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="generos">
+            <h2>Géneros de Videojuegos</h2>
+            <article>
+                <h3>Acción y Aventura</h3>
+                <ul>
+                    <li>Características principales</li>
+                    <li>Juegos destacados</li>
+                    <li>Subgéneros</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>RPG</h3>
+                <ul>
+                    <li>JRPG vs WRPG</li>
+                    <li>Sistemas de progresión</li>
+                    <li>Títulos importantes</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Estrategia</h3>
+                <ul>
+                    <li>RTS</li>
+                    <li>4X</li>
+                    <li>Juegos tácticos</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="esports">
+            <h2>eSports y Gaming Competitivo</h2>
+            <article>
+                <h3>Principales Juegos Competitivos</h3>
+                <ul>
+                    <li>League of Legends</li>
+                    <li>Counter-Strike</li>
+                    <li>Dota 2</li>
+                    <li>Valorant</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Torneos Importantes</h3>
+                <ul>
+                    <li>The International</li>
+                    <li>Worlds</li>
+                    <li>ESL Pro League</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="comunidad">
+            <h2>Comunidad Gaming</h2>
+            <article>
+                <h3>Streaming</h3>
+                <ul>
+                    <li>Twitch</li>
+                    <li>YouTube Gaming</li>
+                    <li>Streamers famosos</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Eventos y Convenciones</h3>
+                <ul>
+                    <li>E3</li>
+                    <li>Gamescom</li>
+                    <li>Tokyo Game Show</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto y Redes Sociales</h2>
+            <form action="procesar_contacto.php" method="POST">
+                <fieldset>
+                    <legend>Contacta con nosotros</legend>
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 El Mundo del Gaming</p>
+        <nav>
+            <ul>
+                <li><a href="#politica-privacidad">Política de Privacidad</a></li>
+                <li><a href="#terminos">Términos y Condiciones</a></li>
+                <li><a href="#cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
