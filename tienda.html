@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Tienda Gaming</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="tienda.js"></script>
+</head>
+<body>
+    <nav class="nav-return">
+        <a href="index.html" class="return-home">
+            <span>← Volver al Inicio</span>
+        </a>
+    </nav>
+    <div class="tienda-container">
+        <h1>Tienda Gaming</h1>
+
+        <div id="wallet-status">
+            <p>Estado Wallet: <span id="wallet-address">No conectado</span></p>
+            <button id="connect-wallet">Conectar MetaMask</button>
+        </div>
+
+        <div class="productos">
+            <div class="producto" data-precio="0.15">
+                <img src="consola.jpg" alt="Consola">
+                <h2>PlayStation 5</h2>
+                <p>Consola de última generación</p>
+                <span class="precio">0.15 ETH</span>
+                <button class="comprar-btn" onclick="comprarProducto(this)" data-producto="PlayStation 5">Comprar con ETH</button>
+            </div>
+
+            <div class="producto" data-precio="0.05">
+                <img src="juego.jpg" alt="Juego">
+                <h2>God of War Ragnarök</h2>
+                <p>La nueva aventura de Kratos</p>
+                <span class="precio">0.05 ETH</span>
+                <button class="comprar-btn" onclick="comprarProducto(this)" data-producto="God of War Ragnarök">Comprar con ETH</button>
+            </div>
+
+            <div class="producto" data-precio="0.02">
+                <img src="accesorio.jpg" alt="Accesorio">
+                <h2>DualSense Controller</h2>
+                <p>Control inalámbrico PS5</p>
+                <span class="precio">0.02 ETH</span>
+                <button class="comprar-btn" onclick="comprarProducto(this)" data-producto="DualSense Controller">Comprar con ETH</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
